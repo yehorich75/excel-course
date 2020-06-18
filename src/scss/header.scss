@@ -10,7 +10,6 @@
     padding: 8px 4px 0;
     display: flex;
     justify-content: space-between;
-    background-color: antiquewhite; 
     & .input {
         padding: 2px 7px;
         min-width: 1px;
@@ -29,6 +28,6 @@
         }
     }
     .button {
-
+        @include button(green);
     }
 }
