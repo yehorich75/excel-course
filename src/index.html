@@ -9,58 +9,18 @@
 </head>
 <body>
     <div id="app" class="container">
-        <div class="excel">
-            <div class="excel__header">
-                <input type="text" class="input" value="New table">
-                <div>
-                    <div class="button">
-                        <i class="material-icons">delete</i>
-                    </div>
-                    <div class="button">
-                        <i class="material-icons">exit_to_app</i>
-                    </div>
+        <div class="db">
+            <div class="db__header">
+                <h1>Excel Dashboard</h1>
+            </div>
+            <div class="db__new">
+                <div class="db__view">
+                    <a href="#" class="db__create">New <br/>Table</a>
                 </div>
             </div>
-            <div class="excel__toolbar">
-                <div class="button">
-                    <i class="material-icons">format_align_left</i>
-                </div>
-                <div class="button">
-                    <i class="material-icons">format_align_center</i>
-                </div>
-                <div class="button">
-                    <i class="material-icons">format_align_right</i>
-                </div>
-                <div class="button">
-                    <i class="material-icons">format_bold</i>
-                </div>
-                <div class="button">
-                    <i class="material-icons">format_italic</i>
-                </div>
-                <div class="button">
-                    <i class="material-icons">format_underlined</i>
-                </div>
-            </div>
-            <div class="excel__formula">
-                <div class="info">fx</div>
-                <div class="input" contenteditable spellcheck="false"></div>
-            </div>
-            <div class="excel__table">
-                <div class="raw">
-                    <div class="raw-info"></div>
-                    <div class="raw-data">
-                        <div class="column">A</div>
-                        <div class="column">B</div>
-                        <div class="column">C</div>
-                    </div>
-                </div>
-                <div class="raw">
-                    <div class="raw-info">1</div>
-                    <div class="raw-data">
-                        <div class="cell selected"></div>
-                        <div class="cell"></div>
-                        <div class="cell"></div>
-                    </div>
+            <div class="db__table db__view">
+                <div class="db__list-header">
+                    <span></span><span></span>
                 </div>
             </div>
         </div>
